@@ -1,0 +1,53 @@
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin gridbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+@mixin mobile {
+    @media (max-width: ($mobile - 1px)) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $mobile) and (max-width: ($laptop - 1px)) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: $laptop) and (max-width: ($desktop - 1px)) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin box-shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+@mixin patua-font {
+    font-family: $font-patua;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin noto-serif {
+    font-family: $font-noto-serif;
+}
+
+@mixin roboto {
+    font-family: $font-roboto;
+}
