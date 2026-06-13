@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+
+
+    <div class="dashboard">
+
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>PharmaCare</h2>
+            </div>
+
+            <nav>
+
+                <a href="dashboard.html">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Dashboard</span>
+                </a>
+
+                <a href="inventory.html">
+                    <i class="fa-solid fa-capsules"></i>
+                    <span>Medicines</span>
+                </a>
+
+                <a href="suppliers.html">
+                    <i class="fa-solid fa-truck"></i>
+                    <span>Suppliers</span>
+                </a>
+
+                <a href="sales.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Sales</span>
+                </a>
+
+                <a href="reports.html" class="active">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Reports</span>
+                </a>
+
+            </nav>
+
+            <div class="sidebar-footer">
+                <button id="logoutBtn">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Logout
+                </button>
+            </div>
+
+        </aside>
+
+        <main class="main">
+
+            <div class="top-header">
+
+                <h1>Reports</h1>
+
+                <div class="header-actions">
+
+                    <button class="icon-btn notification-btn">
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="badge" id="notificationCount">0</span>
+                    </button>
+
+                    <div class="profile-wrapper">
+
+                        <div class="profile-card" id="profileCard">
+
+                            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="profile">
+
+                            <div class="profile-info">
+                                <span>Hello,</span>
+                                <h4 id="userName"></h4>
+                            </div>
+
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </div>
+
+                        <div class="profile-dropdown" id="profileDropdown">
+
+                            <a href="#">
+                                <i class="fa-solid fa-user"></i>
+                                My Profile
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-solid fa-gear"></i>
+                                Settings
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-solid fa-bell"></i>
+                                Notifications
+                            </a>
+
+                            <button id="logoutBtn">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                                Logout
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="reports-page">
+                <div class="reports-cards">
+
+                    <div class="report-card medicines">
+                        <h2 id="reportMedicines">0</h2>
+                        <p>Total Medicines</p>
+                    </div>
+
+                    <div class="report-card suppliers">
+                        <h2 id="reportSuppliers">0</h2>
+                        <p>Total Suppliers</p>
+                    </div>
+
+                    <div class="report-card revenue">
+                        <h2 id="reportRevenue">€0</h2>
+                        <p>Total Revenue</p>
+                    </div>
+
+                    <div class="report-card sales">
+                        <h2 id="reportSales">0</h2>
+                        <p>Total Sales</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="charts-grid">
+
+                <div class="chart-box">
+                    <h3>Medicine Categories</h3>
+                    <div id="categoryChart"></div>
+                </div>
+
+                <div class="chart-box">
+                    <h3>Sales Performance</h3>
+                    <div id="salesChart"></div>
+                </div>
+
+                <div class="chart-box">
+                    <h3>Stock Status</h3>
+                    <div id="stockChart"></div>
+                </div>
+
+            </div>
+            <div class="low-stock-report">
+                <div class="report-header">
+                    <h2>Low Stock Medicines</h2>
+
+                    <button id="showLowStockBtn">
+                        Show Medicines
+                    </button>
+                </div>
+
+                <div id="lowStockMedicines"></div>
+            </div>
+            <div class="top-selling-report">
+                <div class="report-header">
+                    <h2>Top Selling Medicines</h2>
+
+                    <button id="showTopSellingBtn">
+                        Show Medicines
+                    </button>
+                </div>
+
+                <div id="topSellingMedicines"></div>
+            </div>
+            <script src="./script/report.js"></script>
+
+
+</body>
+
+</html>

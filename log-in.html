@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - PharmaCare</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="logo">
+                <i class="fa-solid fa-square-plus"></i>
+                <h2>
+                    <span class="pharma">Pharma</span>
+                    <span class="care">Care</span>
+                </h2>
+            </div>
+            <h1>Manage your pharmacy with confidence</h1>
+            <p>
+                Track medicines, manage stock, handle sales
+                and grow your business effortlessly.
+            </p>
+            <div class="image">
+                <img src="images/download (1).jpeg" alt="Pharmacy Illustration">
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="register-card">
+                <div class="logo">
+                    <i class="fa-solid fa-kit-medical"></i>
+                    <h2>
+                        <span class="pharma">Pharma</span>x
+                        <span class="care">Care</span>
+                    </h2>
+                </div>
+
+                <h1>Welcome Back</h1>
+                <p>Sign in to manage your pharmacy</p>
+
+                <form id="loginForm">
+
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter your password">
+                        <p id="errorMsg" class="error-msg" style="color: red;"></p>
+                    </div>
+                    <div class="login-options">
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">
+                                Remember me
+                            </label>
+                        </div>
+
+                        <a href="#" class="forgot-password">
+                            Forgot password?
+                        </a>
+
+                    </div>
+
+                    <button type="submit">
+                        Login
+                    </button>
+
+                </form>
+
+                <div class="login-link">
+                    Don't have an account?
+                    <a href="index.html">Register</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script/login.js"></script>
+</body>
+
+</html>
