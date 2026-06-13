@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="add-medicine">
+
+        <div class="container">
+
+            <div class="page-header">
+                <div>
+                    <h1>Add New Medicine</h1>
+                    <p>Create and manage medicine inventory records.</p>
+                </div>
+
+                <a href="inventory.html">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Back to Inventory
+                </a>
+            </div>
+            <div class="medicine-wrapper">
+
+                <div class="medicine-form-card">
+
+                    <h2>Medicine Information</h2>
+
+                    <form id="medicineForm">
+
+                        <div class="form-grid">
+
+                            <div class="form-group">
+                                <label>Medicine Code</label>
+                                <input type="text" id="code" placeholder="e.g. MED006">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Medicine Name</label>
+                                <input type="text" id="name" placeholder="e.g. Amoxicillin 250mg">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Category</label>
+                                <select id="category">
+                                    <option>Select Category</option>
+                                    <option>Pain Relief</option>
+                                    <option>Antibiotics</option>
+                                    <option>Vitamins</option>
+                                    <option>Cough & Cold</option>
+                                    <option value="">Anti-inflammatory </option>
+                                    <option value="">Antihistamine</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Supplier</label>
+                                <select id="supplier">
+                                    <option>Select Supplier</option>
+                                    <option>HealthCorp</option>
+                                    <option>PharmaPlus</option>
+                                    <option>MedSupply Co.</option>
+
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Stock Quantity</label>
+                                <input type="number" id="stock" placeholder="e.g. 100">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Price</label>
+                                <input type="number" id="price" placeholder="e.g. 1.25">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Expiry Date</label>
+                                <input type="date" id="expiryDate">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Status</label>
+                                <select id="status">
+                                    <option>In Stock</option>
+                                    <option>Low Stock</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group notes">
+                            <label>Notes (Optional)</label>
+
+                            <textarea id="notes"
+                                placeholder="Add any additional notes about this medicine..."></textarea>
+                        </div>
+
+                        <div class="form-buttons">
+
+                            <button type="button" class="cancel-btn">
+
+                                Cancel
+
+                            </button>
+
+                            <button type="submit" class="save-btn">
+
+                                <i class="fa-regular fa-floppy-disk"></i>
+                                Save Medicine
+
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div class="info-sidebar">
+
+                    <div class="info-card">
+
+                        <div class="info-item">
+                            <i class="fa-solid fa-circle-info"></i>
+
+                            <div>
+                                <h4>Quick Info</h4>
+                                <p>Preview and key details</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa-solid fa-folder"></i>
+
+                            <div>
+                                <h4>Current Category</h4>
+                                <p id="previewCategory">
+                                    Not selected
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa-regular fa-bell"></i>
+
+                            <div>
+                                <h4>Reorder Level</h4>
+                                <p>10 units (default)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa-regular fa-square"></i>
+
+                            <div>
+                                <h4>Unit</h4>
+                                <p>Per Unit</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa-solid fa-chart-line"></i>
+
+                            <div>
+                                <h4>Stock Preview</h4>
+                                <p id="stockPreview">
+                                    0 units
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tip-card">
+
+                        <i class="fa-regular fa-lightbulb"></i>
+
+                        <p>
+                            Tip: Fill all required fields to keep your
+                            inventory accurate and up to date.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+    <script src="./script/addMedicine.js"></script>
+
+</body>
+
+</html>
