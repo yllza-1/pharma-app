@@ -1,0 +1,384 @@
+{
+  "users": [
+    {
+      "name": "ylli",
+      "email": "yllzaazemi13@gmail.com",
+      "password": "1234567",
+      "confirmPassword": "1234567",
+      "id": "bLh_4ui1o6s"
+    },
+    {
+      "name": "Yzi",
+      "email": "yllzaazemi900@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": "1pCIozKxRIQ"
+    },
+    {
+      "name": "Era",
+      "email": "eraazemi@gmail.com",
+      "password": "7654321",
+      "confirmPassword": "7654321",
+      "id": "aXwTrR46TfM"
+    },
+    {
+      "name": "Era",
+      "email": "yllzaazemi17222@gmail.com",
+      "password": "987654",
+      "confirmPassword": "987654",
+      "id": "AdducndFcvc"
+    },
+    {
+      "name": "Yllza",
+      "email": "yllzaazemi13@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": "bYp75GqOLcU"
+    },
+    {
+      "name": "Yllza",
+      "email": "yllzaazemi13@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "id": "412DUIkMl1A"
+    },
+    {
+      "name": "Yllza",
+      "email": "yllzaazemi12@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "id": "eSOB6dyeRlo"
+    },
+    {
+      "name": "Yllza",
+      "email": "yllzaazemi13@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "id": "6ZqExqGJcw0"
+    },
+    {
+      "name": "albaDol",
+      "email": "yllzaazemi13@gmail.com",
+      "password": "123409",
+      "confirmPassword": "123409",
+      "id": "l-u0XRaXzU8"
+    },
+    {
+      "name": "Yllza",
+      "email": "yllzaazemi13@gmail.com",
+      "password": "1234432",
+      "confirmPassword": "1234432",
+      "id": "SEPDUkffx4c"
+    },
+    {
+      "name": "Ylli",
+      "email": "eraazemi@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "id": "eg8bywCbqGQ"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "vuPSemLydmQ",
+      "code": "1111",
+      "name": "AlbaDol",
+      "category": "healthcare",
+      "supplier": "HealthCorp",
+      "expiryDate": "3333-02-01",
+      "stock": 1,
+      "price": 7
+    },
+    {
+      "id": "4MJbQQxWACk",
+      "code": "3456",
+      "name": "Amoxicilin",
+      "category": "healthCare",
+      "supplier": "PharmaPlus",
+      "expiryDate": "2027-11-11",
+      "stock": 555,
+      "price": 222
+    },
+    {
+      "id": "JusnP_djp2U",
+      "code": "2987",
+      "name": "Paracetamol",
+      "category": "Vitamins",
+      "supplier": "PharmaPlus",
+      "expiryDate": "1111-11-11",
+      "stock": 3,
+      "price": 111
+    },
+    {
+      "code": "4545",
+      "name": "Aspirin",
+      "category": "Cough & Cold",
+      "supplier": "MedSupply Co.",
+      "stock": 3,
+      "price": 222,
+      "expiryDate": "2029-02-22",
+      "status": "Low Stock",
+      "notes": "",
+      "id": "9SfUsXKl5wo"
+    },
+    {
+      "id": "T_UTneaqJXw",
+      "code": "8474",
+      "name": "Vitamin D3",
+      "category": "Vitamins",
+      "supplier": "PharmaPlus",
+      "expiryDate": "29393-07-06",
+      "stock": 3,
+      "price": 222
+    },
+    {
+      "code": "",
+      "name": "",
+      "category": "Select Category",
+      "supplier": "Select Supplier",
+      "stock": 0,
+      "price": 0,
+      "expiryDate": "",
+      "status": "In Stock",
+      "notes": "",
+      "id": "527hlx318PE"
+    },
+    {
+      "code": "",
+      "name": "",
+      "category": "Select Category",
+      "supplier": "Select Supplier",
+      "stock": 0,
+      "price": 0,
+      "expiryDate": "",
+      "status": "In Stock",
+      "notes": "",
+      "id": "TsYT3vHTSQs"
+    },
+    {
+      "code": "1111",
+      "name": "albaDol",
+      "category": "Pain Relief",
+      "supplier": "PharmaPlus",
+      "stock": 12,
+      "price": 12,
+      "expiryDate": "2026-06-14",
+      "status": "Low Stock",
+      "notes": "",
+      "id": "6_fUxsRv5no"
+    },
+    {
+      "code": "",
+      "name": "",
+      "category": "Select Category",
+      "supplier": "Select Supplier",
+      "stock": 0,
+      "price": 0,
+      "expiryDate": "",
+      "status": "In Stock",
+      "notes": "",
+      "id": "wRt9ZRkVa8U"
+    },
+    {
+      "code": "",
+      "name": "",
+      "category": "Select Category",
+      "supplier": "Select Supplier",
+      "stock": 0,
+      "price": 0,
+      "expiryDate": "",
+      "status": "In Stock",
+      "notes": "",
+      "id": "hWzbKa2LS4w"
+    },
+    {
+      "code": "",
+      "name": "",
+      "category": "Select Category",
+      "supplier": "Select Supplier",
+      "stock": 0,
+      "price": 0,
+      "expiryDate": "",
+      "status": "In Stock",
+      "notes": "",
+      "id": "KsnQiUlR75k"
+    }
+  ],
+  "suppliers": [
+    {
+      "company": "HealthCare Distribution",
+      "phone": "044111222",
+      "email": "healthcare@gmail.com",
+      "address": "Prizren, Kosovë",
+      "id": "HC001"
+    },
+    {
+      "company": "BioPharm Kosova",
+      "phone": "045333444",
+      "email": "biopharm@gmail.com",
+      "address": "Gjakovë, Kosovë",
+      "id": "BP002"
+    },
+    {
+      "company": "MediLine Supply",
+      "phone": "049555666",
+      "email": "mediline@gmail.com",
+      "address": "Pejë, Kosovë",
+      "id": "ML003"
+    },
+    {
+      "company": "PharmaCare Group",
+      "phone": "048777888",
+      "email": "pharmacare@gmail.com",
+      "address": "Prishtinë, Kosovë",
+      "id": "PC004"
+    },
+    {
+      "company": "EuroMed Trading",
+      "phone": "043999000",
+      "email": "euromed@gmail.com",
+      "address": "Ferizaj, Kosovë",
+      "id": "EM005"
+    },
+    {
+      "company": "LifeMed Solutions",
+      "phone": "044222333",
+      "email": "lifemed@gmail.com",
+      "address": "Mitrovicë, Kosovë",
+      "id": "LM006"
+    },
+    {
+      "company": "Nova Pharma",
+      "phone": "045444555",
+      "email": "novapharma@gmail.com",
+      "address": "Gjilan, Kosovë",
+      "id": "NP007"
+    },
+    {
+      "company": "MediTrust",
+      "phone": "049666777",
+      "email": "meditrust@gmail.com",
+      "address": "Vushtrri, Kosovë",
+      "id": "MT008"
+    },
+    {
+      "company": "Prime Health Supply",
+      "phone": "048888999",
+      "email": "primehealth@gmail.com",
+      "address": "Podujevë, Kosovë",
+      "id": "PH009"
+    },
+    {
+      "company": "Kosova Medical Center",
+      "phone": "043123789",
+      "email": "kmc@gmail.com",
+      "address": "Prishtinë, Kosovë",
+      "id": "KM010"
+    },
+    {
+      "company": "Vital Pharma",
+      "phone": "044456789",
+      "email": "vitalpharma@gmail.com",
+      "address": "Pejë, Kosovë",
+      "id": "VP011"
+    },
+    {
+      "company": "Medica Group",
+      "phone": "045567890",
+      "email": "medicagroup@gmail.com",
+      "address": "Prizren, Kosovë",
+      "id": "MG012"
+    },
+    {
+      "company": "Pharma Expert",
+      "phone": "049678901",
+      "email": "pharmaexpert@gmail.com",
+      "address": "Ferizaj, Kosovë",
+      "id": "PE013"
+    },
+    {
+      "company": "CarePlus Distribution",
+      "phone": "048789012",
+      "email": "careplus@gmail.com",
+      "address": "Gjilan, Kosovë",
+      "id": "CP014"
+    },
+    {
+      "company": "Medical Supply Hub",
+      "phone": "043890123",
+      "email": "supplyhub@gmail.com",
+      "address": "Mitrovicë, Kosovë",
+      "id": "MS015"
+    },
+    {
+      "company": "jcdjcejdws",
+      "phone": "mejdxcwl",
+      "email": "yllzaazemi13@gmail.com",
+      "address": "njdenwjdxjew",
+      "id": "YMK3Un4BB8Q"
+    }
+  ],
+  "sales": [
+    {
+      "id": "1",
+      "medicine": "Paracetamol",
+      "quantity": 5,
+      "price": 2
+    },
+    {
+      "id": "2",
+      "medicine": "Ibuprofen",
+      "quantity": 3,
+      "price": 4
+    },
+    {
+      "id": "3",
+      "medicine": "Aspirin",
+      "quantity": 2,
+      "price": 3
+    },
+    {
+      "id": "4",
+      "medicine": "Vitamin C",
+      "quantity": 8,
+      "price": 1
+    },
+    {
+      "id": "5",
+      "medicine": "Amoxicillin",
+      "quantity": 4,
+      "price": 7
+    },
+    {
+      "id": "6",
+      "medicine": "Cetirizine",
+      "quantity": 6,
+      "price": 2
+    },
+    {
+      "id": "7",
+      "medicine": "Omeprazole",
+      "quantity": 3,
+      "price": 5
+    },
+    {
+      "id": "8",
+      "medicine": "Diclofenac",
+      "quantity": 7,
+      "price": 4
+    },
+    {
+      "id": "9",
+      "medicine": "Nurofen",
+      "quantity": 5,
+      "price": 6
+    },
+    {
+      "id": "10",
+      "medicine": "Panadol",
+      "quantity": 9,
+      "price": 2
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
